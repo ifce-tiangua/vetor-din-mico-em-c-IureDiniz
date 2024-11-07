@@ -18,7 +18,7 @@ int main(){
             else
                 printf("%d", p[i]);
         }
-    }else{
+    }if(p == NULL){
         printf("vazio");
     }
     printf("]\n");
