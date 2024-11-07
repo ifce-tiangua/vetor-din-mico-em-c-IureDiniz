@@ -11,10 +11,10 @@ int main(){
         p[i] = aux;
     }
     printf("[");
-    if(*p != NULL){
+    if(p != NULL){
         for(int i = 0; i < tam; i++){
             if(i < tam-1)
-                printf("%d,", p[i]);
+                printf("%d, ", p[i]);
             else
                 printf("%d", p[i]);
         }
@@ -24,7 +24,6 @@ int main(){
     printf("]\n");
     
     free(p);
-    printf("Nao implementado ainda...");
 
     return 0;
 }
